@@ -55,9 +55,9 @@ class App extends Component {
                     .map(item => {
                       item = item.replace(/"/g, "");
                       if (item.indexOf("//") === 0) {
-                        item = `\"https:${item}\"`;
+                        item = `https:${item}`;
                       }
-                      return item;
+                      return `\"${item}\"`;
                     })
                     .join(",\n\t")
               });
