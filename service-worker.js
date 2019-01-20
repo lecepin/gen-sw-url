@@ -13,7 +13,7 @@
 
 importScripts(
   "https://g.alicdn.com/mylib/lp-workbox-cdn/3.6.3-2/workbox/workbox-sw.js",
-  "./precache-manifest.52b050ca808a51d59abb0887ab385f6f.js"
+  "./precache-manifest.a7798f7037a68023f449abb255f27bae.js"
 );
 
 workbox.skipWaiting();
